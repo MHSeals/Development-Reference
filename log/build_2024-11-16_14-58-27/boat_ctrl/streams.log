@@ -1,0 +1,19 @@
+[0.619s] Invoking command in '/home/bchan400/ros2_ws/build/boat_ctrl': PYTHONPATH=/home/bchan400/ros2_ws/build/boat_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bchan400/ros2_ws/install/boat_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/bchan400/ros2_ws/build/boat_ctrl/build --no-deps symlink_data
+[0.853s] running develop
+[0.854s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.854s]   warnings.warn(
+[0.978s] running egg_info
+[0.979s] writing boat_ctrl.egg-info/PKG-INFO
+[0.979s] writing dependency_links to boat_ctrl.egg-info/dependency_links.txt
+[0.979s] writing entry points to boat_ctrl.egg-info/entry_points.txt
+[0.979s] writing requirements to boat_ctrl.egg-info/requires.txt
+[0.979s] writing top-level names to boat_ctrl.egg-info/top_level.txt
+[0.981s] reading manifest file 'boat_ctrl.egg-info/SOURCES.txt'
+[0.982s] writing manifest file 'boat_ctrl.egg-info/SOURCES.txt'
+[0.983s] running build_ext
+[0.983s] Creating /home/bchan400/ros2_ws/install/boat_ctrl/lib/python3.10/site-packages/boat-ctrl.egg-link (link to .)
+[0.984s] Installing odom script to /home/bchan400/ros2_ws/install/boat_ctrl/lib/boat_ctrl
+[0.984s] 
+[0.984s] Installed /home/bchan400/ros2_ws/build/boat_ctrl
+[0.984s] running symlink_data
+[1.024s] Invoked command in '/home/bchan400/ros2_ws/build/boat_ctrl' returned '0': PYTHONPATH=/home/bchan400/ros2_ws/build/boat_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bchan400/ros2_ws/install/boat_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/bchan400/ros2_ws/build/boat_ctrl/build --no-deps symlink_data

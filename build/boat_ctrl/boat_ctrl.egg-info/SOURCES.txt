@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+boat_ctrl/__init__.py
+boat_ctrl/kiss_icp.py
+boat_ctrl.egg-info/PKG-INFO
+boat_ctrl.egg-info/SOURCES.txt
+boat_ctrl.egg-info/dependency_links.txt
+boat_ctrl.egg-info/entry_points.txt
+boat_ctrl.egg-info/requires.txt
+boat_ctrl.egg-info/top_level.txt
+boat_ctrl.egg-info/zip-safe
+resource/boat_ctrl

@@ -1,0 +1,6 @@
+Invoking command in '/home/bchan400/ros2_ws/build/kiss_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bchan400/ros2_ws/src/kiss-icp/ros -DCMAKE_INSTALL_PREFIX=/home/bchan400/ros2_ws/install/kiss_icp
+Invoked command in '/home/bchan400/ros2_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bchan400/ros2_ws/src/kiss-icp/ros -DCMAKE_INSTALL_PREFIX=/home/bchan400/ros2_ws/install/kiss_icp
+Invoking command in '/home/bchan400/ros2_ws/build/kiss_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bchan400/ros2_ws/build/kiss_icp -- -j8 -l8
+Invoked command in '/home/bchan400/ros2_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bchan400/ros2_ws/build/kiss_icp -- -j8 -l8
+Invoking command in '/home/bchan400/ros2_ws/build/kiss_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bchan400/ros2_ws/build/kiss_icp
+Invoked command in '/home/bchan400/ros2_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bchan400/ros2_ws/build/kiss_icp

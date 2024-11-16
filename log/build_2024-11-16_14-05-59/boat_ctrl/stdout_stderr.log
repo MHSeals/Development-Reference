@@ -1,0 +1,23 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating boat_ctrl.egg-info
+writing boat_ctrl.egg-info/PKG-INFO
+writing dependency_links to boat_ctrl.egg-info/dependency_links.txt
+writing entry points to boat_ctrl.egg-info/entry_points.txt
+writing requirements to boat_ctrl.egg-info/requires.txt
+writing top-level names to boat_ctrl.egg-info/top_level.txt
+writing manifest file 'boat_ctrl.egg-info/SOURCES.txt'
+reading manifest file 'boat_ctrl.egg-info/SOURCES.txt'
+writing manifest file 'boat_ctrl.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bchan400/ros2_ws/install/boat_ctrl/lib/python3.10/site-packages/boat-ctrl.egg-link (link to .)
+
+Installed /home/bchan400/ros2_ws/build/boat_ctrl
+running symlink_data
+creating /home/bchan400/ros2_ws/install/boat_ctrl/share/ament_index
+creating /home/bchan400/ros2_ws/install/boat_ctrl/share/ament_index/resource_index
+creating /home/bchan400/ros2_ws/install/boat_ctrl/share/ament_index/resource_index/packages
+symbolically linking /home/bchan400/ros2_ws/build/boat_ctrl/resource/boat_ctrl -> /home/bchan400/ros2_ws/install/boat_ctrl/share/ament_index/resource_index/packages
+symbolically linking /home/bchan400/ros2_ws/build/boat_ctrl/package.xml -> /home/bchan400/ros2_ws/install/boat_ctrl/share/boat_ctrl

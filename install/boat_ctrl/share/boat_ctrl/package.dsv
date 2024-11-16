@@ -1,0 +1,9 @@
+source;share/boat_ctrl/hook/pythonpath.ps1
+source;share/boat_ctrl/hook/pythonpath.dsv
+source;share/boat_ctrl/hook/pythonpath.sh
+source;share/boat_ctrl/hook/ament_prefix_path.ps1
+source;share/boat_ctrl/hook/ament_prefix_path.dsv
+source;share/boat_ctrl/hook/ament_prefix_path.sh
+source;../../build/boat_ctrl/share/boat_ctrl/hook/pythonpath_develop.ps1
+source;../../build/boat_ctrl/share/boat_ctrl/hook/pythonpath_develop.dsv
+source;../../build/boat_ctrl/share/boat_ctrl/hook/pythonpath_develop.sh

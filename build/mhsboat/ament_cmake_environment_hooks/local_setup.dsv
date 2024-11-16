@@ -1,0 +1,3 @@
+source;share/mhsboat/environment/ament_prefix_path.sh
+source;share/mhsboat/environment/path.sh
+source;share/mhsboat/environment/pythonpath.sh

@@ -1,0 +1,1 @@
+/home/bchan400/ros2_ws/build/mhsboat/ament_cmake_core/mhsboatConfig-version.cmake

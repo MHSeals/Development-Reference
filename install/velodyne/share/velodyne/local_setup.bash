@@ -1,0 +1,1 @@
+/home/bchan400/ros2_ws/build/velodyne/ament_cmake_environment_hooks/local_setup.bash

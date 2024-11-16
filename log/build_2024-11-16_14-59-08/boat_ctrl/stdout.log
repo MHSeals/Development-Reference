@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing boat_ctrl.egg-info/PKG-INFO
+writing dependency_links to boat_ctrl.egg-info/dependency_links.txt
+writing entry points to boat_ctrl.egg-info/entry_points.txt
+writing requirements to boat_ctrl.egg-info/requires.txt
+writing top-level names to boat_ctrl.egg-info/top_level.txt
+reading manifest file 'boat_ctrl.egg-info/SOURCES.txt'
+writing manifest file 'boat_ctrl.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bchan400/ros2_ws/install/boat_ctrl/lib/python3.10/site-packages/boat-ctrl.egg-link (link to .)
+Installing odom script to /home/bchan400/ros2_ws/install/boat_ctrl/lib/boat_ctrl
+
+Installed /home/bchan400/ros2_ws/build/boat_ctrl
+running symlink_data

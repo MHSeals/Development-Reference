@@ -1,0 +1,1 @@
+/home/bchan400/ros2_ws/build/velodyne_laserscan/ament_cmake_environment_hooks/local_setup.zsh

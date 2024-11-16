@@ -1,0 +1,680 @@
+[0.098s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.099s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7127acffbd30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7127acffb3a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7127acffb3a0>>)
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.273s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bchan400/ros2_ws'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_ctrl) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_ctrl) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_ctrl) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_ctrl) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_ctrl) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_ctrl) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_ctrl) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_ctrl) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_ctrl) by extension 'ros'
+[0.286s] DEBUG:colcon.colcon_core.package_identification:Package 'src/boat_ctrl' with type 'ros.ament_python' and name 'boat_ctrl'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'colcon_pkg'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['colcon_meta']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'colcon_meta'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'ros'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['cmake', 'python']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'cmake'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'python'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['python_setup_py']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'python_setup_py'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'colcon_pkg'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['colcon_meta']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'colcon_meta'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'ros'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['cmake', 'python']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'cmake'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'python'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['python_setup_py']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'python_setup_py'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/cpp) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/cpp) ignored
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'ros'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['cmake', 'python']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'cmake'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'python'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['python_setup_py']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'python_setup_py'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/python) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/python) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/python) ignored
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extensions ['ros']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'ros'
+[0.290s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kiss-icp/ros' with type 'ros.ament_cmake' and name 'kiss_icp'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/mhsboat) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/mhsboat) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/mhsboat) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/mhsboat) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/mhsboat) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/mhsboat) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/mhsboat) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/mhsboat) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/mhsboat) by extension 'ros'
+[0.291s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mhsboat' with type 'ros.ament_cmake' and name 'mhsboat'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['colcon_pkg']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'colcon_pkg'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['colcon_meta']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'colcon_meta'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['ros']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'ros'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['cmake', 'python']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'cmake'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'python'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['python_setup_py']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'python_setup_py'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extension 'ignore_ament_install'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extensions ['colcon_pkg']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extension 'colcon_pkg'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extensions ['colcon_meta']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extension 'colcon_meta'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extensions ['ros']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extension 'ros'
+[0.293s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne/velodyne' with type 'ros.ament_cmake' and name 'velodyne'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extension 'ros'
+[0.294s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne/velodyne_driver' with type 'ros.ament_cmake' and name 'velodyne_driver'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extension 'ros'
+[0.295s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne/velodyne_laserscan' with type 'ros.ament_cmake' and name 'velodyne_laserscan'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extension 'ros'
+[0.296s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne/velodyne_msgs' with type 'ros.ament_cmake' and name 'velodyne_msgs'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extension 'ros'
+[0.298s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne/velodyne_pointcloud' with type 'ros.ament_cmake' and name 'velodyne_pointcloud'
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.321s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 332 installed packages in /opt/ros/humble
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'boat_ctrl' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'boat_ctrl' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'boat_ctrl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'boat_ctrl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'boat_ctrl' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'boat_ctrl' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'boat_ctrl' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'boat_ctrl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'boat_ctrl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.395s] DEBUG:colcon.colcon_core.verb:Building package 'boat_ctrl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bchan400/ros2_ws/build/boat_ctrl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bchan400/ros2_ws/install/boat_ctrl', 'merge_install': False, 'path': '/home/bchan400/ros2_ws/src/boat_ctrl', 'symlink_install': True, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.395s] DEBUG:colcon.colcon_core.verb:Building package 'kiss_icp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bchan400/ros2_ws/build/kiss_icp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bchan400/ros2_ws/install/kiss_icp', 'merge_install': False, 'path': '/home/bchan400/ros2_ws/src/kiss-icp/ros', 'symlink_install': True, 'test_result_base': None}
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'mhsboat' build argument 'cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'mhsboat' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'mhsboat' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'mhsboat' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'mhsboat' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'mhsboat' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'mhsboat' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'mhsboat' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'mhsboat' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'mhsboat' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bchan400/ros2_ws/build/mhsboat', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bchan400/ros2_ws/install/mhsboat', 'merge_install': False, 'path': '/home/bchan400/ros2_ws/src/mhsboat', 'symlink_install': True, 'test_result_base': None}
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bchan400/ros2_ws/build/velodyne_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bchan400/ros2_ws/install/velodyne_laserscan', 'merge_install': False, 'path': '/home/bchan400/ros2_ws/src/velodyne/velodyne_laserscan', 'symlink_install': True, 'test_result_base': None}
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.397s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bchan400/ros2_ws/build/velodyne_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bchan400/ros2_ws/install/velodyne_msgs', 'merge_install': False, 'path': '/home/bchan400/ros2_ws/src/velodyne/velodyne_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.397s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bchan400/ros2_ws/build/velodyne_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bchan400/ros2_ws/install/velodyne_driver', 'merge_install': False, 'path': '/home/bchan400/ros2_ws/src/velodyne/velodyne_driver', 'symlink_install': True, 'test_result_base': None}
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_target' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_pointcloud' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bchan400/ros2_ws/build/velodyne_pointcloud', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bchan400/ros2_ws/install/velodyne_pointcloud', 'merge_install': False, 'path': '/home/bchan400/ros2_ws/src/velodyne/velodyne_pointcloud', 'symlink_install': True, 'test_result_base': None}
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_target' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bchan400/ros2_ws/build/velodyne', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bchan400/ros2_ws/install/velodyne', 'merge_install': False, 'path': '/home/bchan400/ros2_ws/src/velodyne/velodyne', 'symlink_install': True, 'test_result_base': None}
+[0.398s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.399s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.400s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bchan400/ros2_ws/src/velodyne/velodyne_msgs' with build type 'ament_cmake'
+[0.400s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bchan400/ros2_ws/src/velodyne/velodyne_msgs'
+[0.402s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.402s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.405s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bchan400/ros2_ws/src/velodyne/velodyne_laserscan' with build type 'ament_cmake'
+[0.405s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bchan400/ros2_ws/src/velodyne/velodyne_laserscan'
+[0.405s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.405s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.407s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bchan400/ros2_ws/src/boat_ctrl' with build type 'ament_python'
+[0.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('boat_ctrl', 'ament_prefix_path')
+[0.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/boat_ctrl/share/boat_ctrl/hook/ament_prefix_path.ps1'
+[0.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/boat_ctrl/share/boat_ctrl/hook/ament_prefix_path.dsv'
+[0.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/boat_ctrl/share/boat_ctrl/hook/ament_prefix_path.sh'
+[0.409s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.409s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.410s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bchan400/ros2_ws/src/kiss-icp/ros' with build type 'ament_cmake'
+[0.410s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bchan400/ros2_ws/src/kiss-icp/ros'
+[0.410s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.410s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.412s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bchan400/ros2_ws/src/mhsboat' with build type 'ament_cmake'
+[0.412s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bchan400/ros2_ws/src/mhsboat'
+[0.413s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.413s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bchan400/ros2_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bchan400/ros2_ws/build/velodyne_msgs -- -j8 -l8
+[0.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bchan400/ros2_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bchan400/ros2_ws/build/velodyne_laserscan -- -j8 -l8
+[0.644s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bchan400/ros2_ws/src/boat_ctrl'
+[0.644s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.645s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bchan400/ros2_ws/build/kiss_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bchan400/ros2_ws/src/kiss-icp/ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bchan400/ros2_ws/install/kiss_icp
+[0.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bchan400/ros2_ws/build/mhsboat': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bchan400/ros2_ws/build/mhsboat -- -j8 -l8
+[0.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bchan400/ros2_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bchan400/ros2_ws/build/velodyne_laserscan -- -j8 -l8
+[0.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bchan400/ros2_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bchan400/ros2_ws/build/velodyne_laserscan
+[0.746s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_laserscan)
+[0.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bchan400/ros2_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bchan400/ros2_ws/build/velodyne_laserscan
+[0.751s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_laserscan' for CMake module files
+[0.752s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_laserscan' for CMake config files
+[0.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'cmake_prefix_path')
+[0.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.ps1'
+[0.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.dsv'
+[0.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.sh'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_laserscan/lib'
+[0.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'ld_library_path_lib')
+[0.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.ps1'
+[0.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.dsv'
+[0.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.sh'
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_laserscan/bin'
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_laserscan/lib/pkgconfig/velodyne_laserscan.pc'
+[0.759s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_laserscan/lib/python3.10/site-packages'
+[0.759s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_laserscan/bin'
+[0.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.ps1'
+[0.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv'
+[0.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.sh'
+[0.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.bash'
+[0.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.zsh'
+[0.764s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bchan400/ros2_ws/install/velodyne_laserscan/share/colcon-core/packages/velodyne_laserscan)
+[0.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bchan400/ros2_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bchan400/ros2_ws/build/velodyne_msgs -- -j8 -l8
+[0.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_laserscan)
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_laserscan' for CMake module files
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_laserscan' for CMake config files
+[0.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'cmake_prefix_path')
+[0.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.ps1'
+[0.789s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.dsv'
+[0.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.sh'
+[0.790s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_laserscan/lib'
+[0.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'ld_library_path_lib')
+[0.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.ps1'
+[0.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.dsv'
+[0.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.sh'
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_laserscan/bin'
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_laserscan/lib/pkgconfig/velodyne_laserscan.pc'
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_laserscan/lib/python3.10/site-packages'
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_laserscan/bin'
+[0.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.ps1'
+[0.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv'
+[0.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.sh'
+[0.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.bash'
+[0.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.zsh'
+[0.793s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bchan400/ros2_ws/install/velodyne_laserscan/share/colcon-core/packages/velodyne_laserscan)
+[0.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bchan400/ros2_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bchan400/ros2_ws/build/velodyne_msgs
+[0.899s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_msgs)
+[0.900s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_msgs' for CMake module files
+[0.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bchan400/ros2_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bchan400/ros2_ws/build/velodyne_msgs
+[0.901s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_msgs' for CMake config files
+[0.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'cmake_prefix_path')
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.ps1'
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.dsv'
+[0.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.sh'
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_msgs/lib'
+[0.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'ld_library_path_lib')
+[0.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.ps1'
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.dsv'
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.sh'
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_msgs/bin'
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_msgs/lib/pkgconfig/velodyne_msgs.pc'
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_msgs/lib/python3.10/site-packages'
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_msgs/bin'
+[0.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.ps1'
+[0.909s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.dsv'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.sh'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.bash'
+[0.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.zsh'
+[0.911s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bchan400/ros2_ws/install/velodyne_msgs/share/colcon-core/packages/velodyne_msgs)
+[0.968s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_msgs)
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_msgs' for CMake module files
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_msgs' for CMake config files
+[0.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'cmake_prefix_path')
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.ps1'
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.dsv'
+[0.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.sh'
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_msgs/lib'
+[0.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'ld_library_path_lib')
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.ps1'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.dsv'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.sh'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_msgs/bin'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_msgs/lib/pkgconfig/velodyne_msgs.pc'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_msgs/lib/python3.10/site-packages'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_msgs/bin'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.ps1'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.dsv'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.sh'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.bash'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.zsh'
+[0.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bchan400/ros2_ws/install/velodyne_msgs/share/colcon-core/packages/velodyne_msgs)
+[0.981s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bchan400/ros2_ws/src/velodyne/velodyne_driver' with build type 'ament_cmake'
+[0.981s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bchan400/ros2_ws/src/velodyne/velodyne_driver'
+[0.982s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.982s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.986s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bchan400/ros2_ws/src/velodyne/velodyne_pointcloud' with build type 'ament_cmake'
+[0.987s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bchan400/ros2_ws/src/velodyne/velodyne_pointcloud'
+[0.988s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.988s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bchan400/ros2_ws/build/velodyne_driver': AMENT_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bchan400/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bchan400/ros2_ws/build/velodyne_driver -- -j8 -l8
+[1.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bchan400/ros2_ws/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bchan400/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bchan400/ros2_ws/build/velodyne_pointcloud -- -j8 -l8
+[1.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bchan400/ros2_ws/build/boat_ctrl': PYTHONPATH=/home/bchan400/ros2_ws/build/boat_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bchan400/ros2_ws/install/boat_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/bchan400/ros2_ws/build/boat_ctrl/build --no-deps symlink_data
+[1.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bchan400/ros2_ws/build/mhsboat' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bchan400/ros2_ws/build/mhsboat -- -j8 -l8
+[1.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bchan400/ros2_ws/build/mhsboat': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bchan400/ros2_ws/build/mhsboat
+[1.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mhsboat)
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/mhsboat' for CMake module files
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/mhsboat' for CMake config files
+[1.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bchan400/ros2_ws/build/mhsboat' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bchan400/ros2_ws/build/mhsboat
+[1.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('mhsboat', 'cmake_prefix_path')
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/hook/cmake_prefix_path.ps1'
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/hook/cmake_prefix_path.dsv'
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/hook/cmake_prefix_path.sh'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/mhsboat/lib'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/mhsboat/bin'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/mhsboat/lib/pkgconfig/mhsboat.pc'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/mhsboat/lib/python3.10/site-packages'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/mhsboat/bin'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/package.ps1'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/package.dsv'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/package.sh'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/package.bash'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/package.zsh'
+[1.187s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bchan400/ros2_ws/install/mhsboat/share/colcon-core/packages/mhsboat)
+[1.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bchan400/ros2_ws/build/velodyne_driver' returned '0': AMENT_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bchan400/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bchan400/ros2_ws/build/velodyne_driver -- -j8 -l8
+[1.218s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mhsboat)
+[1.218s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/mhsboat' for CMake module files
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/mhsboat' for CMake config files
+[1.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('mhsboat', 'cmake_prefix_path')
+[1.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/hook/cmake_prefix_path.ps1'
+[1.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/hook/cmake_prefix_path.dsv'
+[1.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/hook/cmake_prefix_path.sh'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/mhsboat/lib'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/mhsboat/bin'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/mhsboat/lib/pkgconfig/mhsboat.pc'
+[1.223s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/mhsboat/lib/python3.10/site-packages'
+[1.223s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/mhsboat/bin'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/package.ps1'
+[1.224s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/package.dsv'
+[1.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/package.sh'
+[1.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/package.bash'
+[1.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/package.zsh'
+[1.227s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bchan400/ros2_ws/install/mhsboat/share/colcon-core/packages/mhsboat)
+[1.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bchan400/ros2_ws/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bchan400/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bchan400/ros2_ws/build/velodyne_pointcloud -- -j8 -l8
+[1.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bchan400/ros2_ws/build/velodyne_driver': AMENT_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bchan400/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bchan400/ros2_ws/build/velodyne_driver
+[1.274s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_driver)
+[1.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bchan400/ros2_ws/build/velodyne_driver' returned '0': AMENT_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bchan400/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bchan400/ros2_ws/build/velodyne_driver
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_driver' for CMake module files
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_driver' for CMake config files
+[1.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'cmake_prefix_path')
+[1.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.ps1'
+[1.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.dsv'
+[1.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.sh'
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_driver/lib'
+[1.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'ld_library_path_lib')
+[1.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.ps1'
+[1.279s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.dsv'
+[1.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.sh'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_driver/bin'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_driver/lib/pkgconfig/velodyne_driver.pc'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_driver/lib/python3.10/site-packages'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_driver/bin'
+[1.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.ps1'
+[1.281s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.dsv'
+[1.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.sh'
+[1.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.bash'
+[1.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.zsh'
+[1.283s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bchan400/ros2_ws/install/velodyne_driver/share/colcon-core/packages/velodyne_driver)
+[1.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bchan400/ros2_ws/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bchan400/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bchan400/ros2_ws/build/velodyne_pointcloud
+[1.318s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_pointcloud)
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_pointcloud' for CMake module files
+[1.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bchan400/ros2_ws/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bchan400/ros2_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bchan400/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bchan400/ros2_ws/build/velodyne_pointcloud
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_pointcloud' for CMake config files
+[1.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'cmake_prefix_path')
+[1.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.ps1'
+[1.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.dsv'
+[1.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.sh'
+[1.322s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_pointcloud/lib'
+[1.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'ld_library_path_lib')
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.ps1'
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.dsv'
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.sh'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_pointcloud/bin'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_pointcloud/lib/pkgconfig/velodyne_pointcloud.pc'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_pointcloud/lib/python3.10/site-packages'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_pointcloud/bin'
+[1.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.ps1'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.sh'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.bash'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.zsh'
+[1.327s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/colcon-core/packages/velodyne_pointcloud)
+[1.328s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_driver)
+[1.329s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_driver' for CMake module files
+[1.329s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_driver' for CMake config files
+[1.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'cmake_prefix_path')
+[1.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.ps1'
+[1.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.dsv'
+[1.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.sh'
+[1.332s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_driver/lib'
+[1.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'ld_library_path_lib')
+[1.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.ps1'
+[1.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.dsv'
+[1.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.sh'
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_driver/bin'
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_driver/lib/pkgconfig/velodyne_driver.pc'
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_driver/lib/python3.10/site-packages'
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_driver/bin'
+[1.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.ps1'
+[1.336s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.dsv'
+[1.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.sh'
+[1.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.bash'
+[1.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.zsh'
+[1.338s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bchan400/ros2_ws/install/velodyne_driver/share/colcon-core/packages/velodyne_driver)
+[1.372s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_pointcloud)
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_pointcloud' for CMake module files
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_pointcloud' for CMake config files
+[1.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'cmake_prefix_path')
+[1.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.ps1'
+[1.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.dsv'
+[1.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.sh'
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_pointcloud/lib'
+[1.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'ld_library_path_lib')
+[1.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.ps1'
+[1.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.dsv'
+[1.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.sh'
+[1.376s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_pointcloud/bin'
+[1.376s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_pointcloud/lib/pkgconfig/velodyne_pointcloud.pc'
+[1.376s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_pointcloud/lib/python3.10/site-packages'
+[1.376s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne_pointcloud/bin'
+[1.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.ps1'
+[1.377s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv'
+[1.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.sh'
+[1.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.bash'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.zsh'
+[1.378s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bchan400/ros2_ws/install/velodyne_pointcloud/share/colcon-core/packages/velodyne_pointcloud)
+[1.379s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bchan400/ros2_ws/src/velodyne/velodyne' with build type 'ament_cmake'
+[1.379s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bchan400/ros2_ws/src/velodyne/velodyne'
+[1.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.379s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bchan400/ros2_ws/build/velodyne': AMENT_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_pointcloud:/home/bchan400/ros2_ws/install/velodyne_driver:/home/bchan400/ros2_ws/install/velodyne_msgs:/home/bchan400/ros2_ws/install/velodyne_laserscan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_pointcloud:/home/bchan400/ros2_ws/install/velodyne_driver:/home/bchan400/ros2_ws/install/velodyne_msgs:/home/bchan400/ros2_ws/install/velodyne_laserscan:/opt/ros/humble LD_LIBRARY_PATH=/home/bchan400/ros2_ws/install/velodyne_pointcloud/lib:/home/bchan400/ros2_ws/install/velodyne_driver/lib:/home/bchan400/ros2_ws/install/velodyne_msgs/lib:/home/bchan400/ros2_ws/install/velodyne_laserscan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bchan400/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bchan400/ros2_ws/build/velodyne -- -j8 -l8
+[1.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bchan400/ros2_ws/build/velodyne' returned '0': AMENT_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_pointcloud:/home/bchan400/ros2_ws/install/velodyne_driver:/home/bchan400/ros2_ws/install/velodyne_msgs:/home/bchan400/ros2_ws/install/velodyne_laserscan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_pointcloud:/home/bchan400/ros2_ws/install/velodyne_driver:/home/bchan400/ros2_ws/install/velodyne_msgs:/home/bchan400/ros2_ws/install/velodyne_laserscan:/opt/ros/humble LD_LIBRARY_PATH=/home/bchan400/ros2_ws/install/velodyne_pointcloud/lib:/home/bchan400/ros2_ws/install/velodyne_driver/lib:/home/bchan400/ros2_ws/install/velodyne_msgs/lib:/home/bchan400/ros2_ws/install/velodyne_laserscan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bchan400/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bchan400/ros2_ws/build/velodyne -- -j8 -l8
+[1.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bchan400/ros2_ws/build/velodyne': AMENT_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_pointcloud:/home/bchan400/ros2_ws/install/velodyne_driver:/home/bchan400/ros2_ws/install/velodyne_msgs:/home/bchan400/ros2_ws/install/velodyne_laserscan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_pointcloud:/home/bchan400/ros2_ws/install/velodyne_driver:/home/bchan400/ros2_ws/install/velodyne_msgs:/home/bchan400/ros2_ws/install/velodyne_laserscan:/opt/ros/humble LD_LIBRARY_PATH=/home/bchan400/ros2_ws/install/velodyne_pointcloud/lib:/home/bchan400/ros2_ws/install/velodyne_driver/lib:/home/bchan400/ros2_ws/install/velodyne_msgs/lib:/home/bchan400/ros2_ws/install/velodyne_laserscan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bchan400/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bchan400/ros2_ws/build/velodyne
+[1.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne)
+[1.502s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne' for CMake module files
+[1.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bchan400/ros2_ws/build/velodyne' returned '0': AMENT_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_pointcloud:/home/bchan400/ros2_ws/install/velodyne_driver:/home/bchan400/ros2_ws/install/velodyne_msgs:/home/bchan400/ros2_ws/install/velodyne_laserscan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bchan400/ros2_ws/install/velodyne_pointcloud:/home/bchan400/ros2_ws/install/velodyne_driver:/home/bchan400/ros2_ws/install/velodyne_msgs:/home/bchan400/ros2_ws/install/velodyne_laserscan:/opt/ros/humble LD_LIBRARY_PATH=/home/bchan400/ros2_ws/install/velodyne_pointcloud/lib:/home/bchan400/ros2_ws/install/velodyne_driver/lib:/home/bchan400/ros2_ws/install/velodyne_msgs/lib:/home/bchan400/ros2_ws/install/velodyne_laserscan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bchan400/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bchan400/ros2_ws/build/velodyne
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne' for CMake config files
+[1.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne', 'cmake_prefix_path')
+[1.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.ps1'
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.dsv'
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.sh'
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne/bin'
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne/lib/pkgconfig/velodyne.pc'
+[1.511s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne/lib/python3.10/site-packages'
+[1.511s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne/bin'
+[1.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne/share/velodyne/package.ps1'
+[1.513s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bchan400/ros2_ws/install/velodyne/share/velodyne/package.dsv'
+[1.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne/share/velodyne/package.sh'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne/share/velodyne/package.bash'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne/share/velodyne/package.zsh'
+[1.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bchan400/ros2_ws/install/velodyne/share/colcon-core/packages/velodyne)
+[1.540s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne)
+[1.540s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne' for CMake module files
+[1.541s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne' for CMake config files
+[1.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne', 'cmake_prefix_path')
+[1.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.ps1'
+[1.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.dsv'
+[1.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.sh'
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne/bin'
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne/lib/pkgconfig/velodyne.pc'
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne/lib/python3.10/site-packages'
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/velodyne/bin'
+[1.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne/share/velodyne/package.ps1'
+[1.544s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bchan400/ros2_ws/install/velodyne/share/velodyne/package.dsv'
+[1.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne/share/velodyne/package.sh'
+[1.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne/share/velodyne/package.bash'
+[1.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/velodyne/share/velodyne/package.zsh'
+[1.546s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bchan400/ros2_ws/install/velodyne/share/colcon-core/packages/velodyne)
+[1.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('boat_ctrl', 'pythonpath_develop')
+[1.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/build/boat_ctrl/share/boat_ctrl/hook/pythonpath_develop.ps1'
+[1.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bchan400/ros2_ws/build/boat_ctrl' returned '0': PYTHONPATH=/home/bchan400/ros2_ws/build/boat_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bchan400/ros2_ws/install/boat_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/bchan400/ros2_ws/build/boat_ctrl/build --no-deps symlink_data
+[1.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/build/boat_ctrl/share/boat_ctrl/hook/pythonpath_develop.dsv'
+[1.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/build/boat_ctrl/share/boat_ctrl/hook/pythonpath_develop.sh'
+[1.561s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/boat_ctrl' for CMake module files
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/boat_ctrl' for CMake config files
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/boat_ctrl/lib'
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/boat_ctrl/bin'
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/boat_ctrl/lib/pkgconfig/boat_ctrl.pc'
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/boat_ctrl/lib/python3.10/site-packages'
+[1.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('boat_ctrl', 'pythonpath')
+[1.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/boat_ctrl/share/boat_ctrl/hook/pythonpath.ps1'
+[1.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/boat_ctrl/share/boat_ctrl/hook/pythonpath.dsv'
+[1.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/boat_ctrl/share/boat_ctrl/hook/pythonpath.sh'
+[1.563s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/boat_ctrl/bin'
+[1.563s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(boat_ctrl)
+[1.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/boat_ctrl/share/boat_ctrl/package.ps1'
+[1.564s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bchan400/ros2_ws/install/boat_ctrl/share/boat_ctrl/package.dsv'
+[1.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/boat_ctrl/share/boat_ctrl/package.sh'
+[1.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/boat_ctrl/share/boat_ctrl/package.bash'
+[1.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/boat_ctrl/share/boat_ctrl/package.zsh'
+[1.565s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bchan400/ros2_ws/install/boat_ctrl/share/colcon-core/packages/boat_ctrl)
+[1.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bchan400/ros2_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bchan400/ros2_ws/src/kiss-icp/ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bchan400/ros2_ws/install/kiss_icp
+[1.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bchan400/ros2_ws/build/kiss_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bchan400/ros2_ws/build/kiss_icp -- -j8 -l8
+[2.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bchan400/ros2_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bchan400/ros2_ws/build/kiss_icp -- -j8 -l8
+[2.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bchan400/ros2_ws/build/kiss_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bchan400/ros2_ws/build/kiss_icp
+[2.336s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kiss_icp)
+[2.336s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/kiss_icp' for CMake module files
+[2.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bchan400/ros2_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bchan400/ros2_ws/build/kiss_icp
+[2.337s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/kiss_icp' for CMake config files
+[2.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('kiss_icp', 'cmake_prefix_path')
+[2.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.ps1'
+[2.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.dsv'
+[2.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.sh'
+[2.339s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/kiss_icp/lib'
+[2.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('kiss_icp', 'ld_library_path_lib')
+[2.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.ps1'
+[2.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.dsv'
+[2.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.sh'
+[2.340s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/kiss_icp/bin'
+[2.340s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/kiss_icp/lib/pkgconfig/kiss_icp.pc'
+[2.341s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/kiss_icp/lib/python3.10/site-packages'
+[2.341s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/kiss_icp/bin'
+[2.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/package.ps1'
+[2.341s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/package.dsv'
+[2.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/package.sh'
+[2.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/package.bash'
+[2.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/package.zsh'
+[2.342s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bchan400/ros2_ws/install/kiss_icp/share/colcon-core/packages/kiss_icp)
+[2.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kiss_icp)
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/kiss_icp' for CMake module files
+[2.369s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/kiss_icp' for CMake config files
+[2.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('kiss_icp', 'cmake_prefix_path')
+[2.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.ps1'
+[2.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.dsv'
+[2.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.sh'
+[2.371s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/kiss_icp/lib'
+[2.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('kiss_icp', 'ld_library_path_lib')
+[2.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.ps1'
+[2.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.dsv'
+[2.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.sh'
+[2.372s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/kiss_icp/bin'
+[2.372s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/kiss_icp/lib/pkgconfig/kiss_icp.pc'
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/kiss_icp/lib/python3.10/site-packages'
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/bchan400/ros2_ws/install/kiss_icp/bin'
+[2.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/package.ps1'
+[2.374s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/package.dsv'
+[2.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/package.sh'
+[2.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/package.bash'
+[2.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/bchan400/ros2_ws/install/kiss_icp/share/kiss_icp/package.zsh'
+[2.375s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bchan400/ros2_ws/install/kiss_icp/share/colcon-core/packages/kiss_icp)
+[2.375s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.375s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.376s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.376s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.383s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.383s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.383s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.394s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.395s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bchan400/ros2_ws/install/local_setup.ps1'
+[2.396s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bchan400/ros2_ws/install/_local_setup_util_ps1.py'
+[2.397s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bchan400/ros2_ws/install/setup.ps1'
+[2.398s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bchan400/ros2_ws/install/local_setup.sh'
+[2.399s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bchan400/ros2_ws/install/_local_setup_util_sh.py'
+[2.399s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bchan400/ros2_ws/install/setup.sh'
+[2.400s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bchan400/ros2_ws/install/local_setup.bash'
+[2.401s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bchan400/ros2_ws/install/setup.bash'
+[2.402s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bchan400/ros2_ws/install/local_setup.zsh'
+[2.403s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bchan400/ros2_ws/install/setup.zsh'

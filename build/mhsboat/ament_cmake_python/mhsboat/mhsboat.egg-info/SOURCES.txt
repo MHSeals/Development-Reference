@@ -1,0 +1,6 @@
+setup.py
+mhsboat/__init__.py
+mhsboat.egg-info/PKG-INFO
+mhsboat.egg-info/SOURCES.txt
+mhsboat.egg-info/dependency_links.txt
+mhsboat.egg-info/top_level.txt

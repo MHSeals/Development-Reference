@@ -1,0 +1,3 @@
+[console_scripts]
+odom = boat_ctrl.kiss_icp:main
+

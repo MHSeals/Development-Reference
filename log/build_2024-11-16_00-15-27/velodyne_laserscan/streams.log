@@ -1,0 +1,91 @@
+[0.009s] Invoking command in '/home/bchan400/ros2_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bchan400/ros2_ws/src/velodyne/velodyne_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bchan400/ros2_ws/install/velodyne_laserscan
+[0.051s] -- The C compiler identification is GNU 11.4.0
+[0.094s] -- The CXX compiler identification is GNU 11.4.0
+[0.100s] -- Detecting C compiler ABI info
+[0.153s] -- Detecting C compiler ABI info - done
+[0.158s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.158s] -- Detecting C compile features
+[0.158s] -- Detecting C compile features - done
+[0.160s] -- Detecting CXX compiler ABI info
+[0.220s] -- Detecting CXX compiler ABI info - done
+[0.225s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.226s] -- Detecting CXX compile features
+[0.226s] -- Detecting CXX compile features - done
+[0.228s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.356s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.410s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.435s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.470s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.473s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.480s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.488s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.535s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.537s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.600s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.619s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.648s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.654s] -- Looking for pthread.h
+[0.708s] -- Looking for pthread.h - found
+[0.708s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.762s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.763s] -- Found Threads: TRUE  
+[0.801s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.822s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.848s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.909s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.911s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.911s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/bchan400/ros2_ws/src/velodyne/velodyne_laserscan/include>
+[0.911s] -- Configured cppcheck exclude dirs and/or files: 
+[0.912s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.912s] -- Configured cpplint exclude dirs and/or files: 
+[0.913s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.914s] -- Added test 'lint_cmake' to check CMake code style
+[0.914s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.916s] -- Added test 'uncrustify' to check C / C++ code style
+[0.916s] -- Configured uncrustify additional arguments: 
+[0.916s] -- Added test 'xmllint' to check XML markup files
+[0.919s] -- Configuring done
+[0.932s] -- Generating done
+[0.934s] -- Build files have been written to: /home/bchan400/ros2_ws/build/velodyne_laserscan
+[0.947s] Invoked command in '/home/bchan400/ros2_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bchan400/ros2_ws/src/velodyne/velodyne_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bchan400/ros2_ws/install/velodyne_laserscan
+[0.949s] Invoking command in '/home/bchan400/ros2_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bchan400/ros2_ws/build/velodyne_laserscan -- -j8 -l8
+[0.989s] [ 25%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan.dir/src/velodyne_laserscan.cpp.o[0m
+[11.407s] [ 50%] [32m[1mLinking CXX shared library libvelodyne_laserscan.so[0m
+[12.365s] [ 50%] Built target velodyne_laserscan
+[12.394s] [ 75%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan_node.dir/src/node.cpp.o[0m
+[15.986s] [100%] [32m[1mLinking CXX executable velodyne_laserscan_node[0m
+[16.261s] [100%] Built target velodyne_laserscan_node
+[16.272s] Invoked command in '/home/bchan400/ros2_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bchan400/ros2_ws/build/velodyne_laserscan -- -j8 -l8
+[16.294s] Invoking command in '/home/bchan400/ros2_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bchan400/ros2_ws/build/velodyne_laserscan
+[16.301s] -- Install configuration: ""
+[16.302s] -- Execute custom install script
+[16.302s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/lib/velodyne_laserscan/velodyne_laserscan_node
+[16.310s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/include/velodyne_laserscan/velodyne_laserscan.hpp
+[16.318s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/config/default-velodyne_laserscan_node-params.yaml
+[16.328s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-composed-launch.py
+[16.336s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-launch.py
+[16.344s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/ament_index/resource_index/package_run_dependencies/velodyne_laserscan
+[16.353s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/ament_index/resource_index/parent_prefix_path/velodyne_laserscan
+[16.361s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.sh
+[16.370s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.dsv
+[16.378s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.sh
+[16.386s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.dsv
+[16.394s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.bash
+[16.403s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.sh
+[16.411s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.zsh
+[16.420s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.dsv
+[16.429s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv
+[16.438s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/ament_index/resource_index/packages/velodyne_laserscan
+[16.446s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/ament_index/resource_index/rclcpp_components/velodyne_laserscan
+[16.455s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.463s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/ament_cmake_export_targets-extras.cmake
+[16.472s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.480s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig.cmake
+[16.492s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig-version.cmake
+[16.501s] -- Symlinking: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.xml
+[16.509s] -- Installing: /home/bchan400/ros2_ws/install/velodyne_laserscan/lib/libvelodyne_laserscan.so
+[16.513s] -- Set runtime path of "/home/bchan400/ros2_ws/install/velodyne_laserscan/lib/libvelodyne_laserscan.so" to ""
+[16.513s] -- Installing: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanExport.cmake
+[16.513s] -- Installing: /home/bchan400/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanExport-noconfig.cmake
+[16.516s] Invoked command in '/home/bchan400/ros2_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bchan400/ros2_ws/build/velodyne_laserscan

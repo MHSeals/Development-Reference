@@ -1,0 +1,50 @@
+[0.007s] Invoking command in '/home/bchan400/ros2_ws/build/mhsboat': AMENT_PREFIX_PATH=/home/bchan400/ros2_ws/install/boat_ctrl:/home/bchan400/ros2_ws/install/velodyne:/home/bchan400/ros2_ws/install/velodyne_pointcloud:/home/bchan400/ros2_ws/install/velodyne_driver:/home/bchan400/ros2_ws/install/velodyne_msgs:/home/bchan400/ros2_ws/install/velodyne_laserscan:/home/bchan400/ros2_ws/install/mhsboat:/home/bchan400/ros2_ws/install/kiss_icp:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bchan400/ros2_ws/install/boat_ctrl:/opt/ros/humble PYTHONPATH=/home/bchan400/ros2_ws/build/boat_ctrl:/home/bchan400/ros2_ws/install/boat_ctrl/lib/python3.10/site-packages:/home/bchan400/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/bchan400/ros2_ws/install/mhsboat/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/bchan400/ros2_ws/build/mhsboat -- -j8 -l8
+[0.031s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.150s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.318s] -- Configuring done
+[0.322s] -- Generating done
+[0.323s] -- Build files have been written to: /home/bchan400/ros2_ws/build/mhsboat
+[0.364s] Built target ament_cmake_python_symlink_mhsboat
+[0.565s] running egg_info
+[0.565s] writing mhsboat.egg-info/PKG-INFO
+[0.565s] writing dependency_links to mhsboat.egg-info/dependency_links.txt
+[0.566s] writing top-level names to mhsboat.egg-info/top_level.txt
+[0.567s] reading manifest file 'mhsboat.egg-info/SOURCES.txt'
+[0.568s] writing manifest file 'mhsboat.egg-info/SOURCES.txt'
+[0.603s] Built target ament_cmake_python_build_mhsboat_egg
+[0.614s] Invoked command in '/home/bchan400/ros2_ws/build/mhsboat' returned '0': AMENT_PREFIX_PATH=/home/bchan400/ros2_ws/install/boat_ctrl:/home/bchan400/ros2_ws/install/velodyne:/home/bchan400/ros2_ws/install/velodyne_pointcloud:/home/bchan400/ros2_ws/install/velodyne_driver:/home/bchan400/ros2_ws/install/velodyne_msgs:/home/bchan400/ros2_ws/install/velodyne_laserscan:/home/bchan400/ros2_ws/install/mhsboat:/home/bchan400/ros2_ws/install/kiss_icp:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bchan400/ros2_ws/install/boat_ctrl:/opt/ros/humble PYTHONPATH=/home/bchan400/ros2_ws/build/boat_ctrl:/home/bchan400/ros2_ws/install/boat_ctrl/lib/python3.10/site-packages:/home/bchan400/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/bchan400/ros2_ws/install/mhsboat/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/bchan400/ros2_ws/build/mhsboat -- -j8 -l8
+[0.639s] Invoking command in '/home/bchan400/ros2_ws/build/mhsboat': AMENT_PREFIX_PATH=/home/bchan400/ros2_ws/install/boat_ctrl:/home/bchan400/ros2_ws/install/velodyne:/home/bchan400/ros2_ws/install/velodyne_pointcloud:/home/bchan400/ros2_ws/install/velodyne_driver:/home/bchan400/ros2_ws/install/velodyne_msgs:/home/bchan400/ros2_ws/install/velodyne_laserscan:/home/bchan400/ros2_ws/install/mhsboat:/home/bchan400/ros2_ws/install/kiss_icp:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bchan400/ros2_ws/install/boat_ctrl:/opt/ros/humble PYTHONPATH=/home/bchan400/ros2_ws/build/boat_ctrl:/home/bchan400/ros2_ws/install/boat_ctrl/lib/python3.10/site-packages:/home/bchan400/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/bchan400/ros2_ws/install/mhsboat/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/bchan400/ros2_ws/build/mhsboat
+[0.646s] -- Install configuration: ""
+[0.647s] -- Execute custom install script
+[0.647s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/lib/mhsboat/placeholder.py
+[0.647s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/config/ekf.yaml
+[0.647s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/config/view_boat.rviz
+[0.647s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/launch/run_boat.py
+[0.647s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/launch/view_gazebo.launch.py
+[0.647s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/launch/view_urdf.launch.py
+[0.647s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/urdf/VLP-16.urdf.xacro
+[0.647s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/urdf/tuppy.urdf
+[0.648s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/environment/pythonpath.sh
+[0.648s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/environment/pythonpath.dsv
+[0.648s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/local/lib/python3.10/dist-packages/mhsboat-0.0.0-py3.10.egg-info/PKG-INFO
+[0.648s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/local/lib/python3.10/dist-packages/mhsboat-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.648s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/local/lib/python3.10/dist-packages/mhsboat-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.648s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/local/lib/python3.10/dist-packages/mhsboat-0.0.0-py3.10.egg-info/top_level.txt
+[0.648s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/local/lib/python3.10/dist-packages/mhsboat/__init__.py
+[0.648s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/ament_index/resource_index/package_run_dependencies/mhsboat
+[0.648s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/ament_index/resource_index/parent_prefix_path/mhsboat
+[0.648s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/environment/ament_prefix_path.sh
+[0.649s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/environment/ament_prefix_path.dsv
+[0.649s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/environment/path.sh
+[0.649s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/environment/path.dsv
+[0.649s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/local_setup.bash
+[0.649s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/local_setup.sh
+[0.649s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/local_setup.zsh
+[0.649s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/local_setup.dsv
+[0.649s] -- Symlinking: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/package.dsv
+[0.660s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/ament_index/resource_index/packages/mhsboat
+[0.660s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/cmake/mhsboatConfig.cmake
+[0.660s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/cmake/mhsboatConfig-version.cmake
+[0.661s] -- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/package.xml
+[0.693s] Listing '/home/bchan400/ros2_ws/install/mhsboat/local/lib/python3.10/dist-packages/mhsboat'...
+[0.701s] Invoked command in '/home/bchan400/ros2_ws/build/mhsboat' returned '0': AMENT_PREFIX_PATH=/home/bchan400/ros2_ws/install/boat_ctrl:/home/bchan400/ros2_ws/install/velodyne:/home/bchan400/ros2_ws/install/velodyne_pointcloud:/home/bchan400/ros2_ws/install/velodyne_driver:/home/bchan400/ros2_ws/install/velodyne_msgs:/home/bchan400/ros2_ws/install/velodyne_laserscan:/home/bchan400/ros2_ws/install/mhsboat:/home/bchan400/ros2_ws/install/kiss_icp:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bchan400/ros2_ws/install/boat_ctrl:/opt/ros/humble PYTHONPATH=/home/bchan400/ros2_ws/build/boat_ctrl:/home/bchan400/ros2_ws/install/boat_ctrl/lib/python3.10/site-packages:/home/bchan400/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/bchan400/ros2_ws/install/mhsboat/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/bchan400/ros2_ws/build/mhsboat

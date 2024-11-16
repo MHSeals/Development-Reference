@@ -1,0 +1,41 @@
+Built target ament_cmake_python_symlink_mhsboat
+running egg_info
+writing mhsboat.egg-info/PKG-INFO
+writing dependency_links to mhsboat.egg-info/dependency_links.txt
+writing top-level names to mhsboat.egg-info/top_level.txt
+reading manifest file 'mhsboat.egg-info/SOURCES.txt'
+writing manifest file 'mhsboat.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_mhsboat_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/lib/mhsboat/placeholder.py
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/config/ekf.yaml
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/config/view_boat.rviz
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/launch/run_boat.py
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/launch/view_gazebo.launch.py
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/launch/view_urdf.launch.py
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/urdf/VLP-16.urdf.xacro
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/urdf/tuppy.urdf
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/environment/pythonpath.sh
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/local/lib/python3.10/dist-packages/mhsboat-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/local/lib/python3.10/dist-packages/mhsboat-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/local/lib/python3.10/dist-packages/mhsboat-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/local/lib/python3.10/dist-packages/mhsboat-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/local/lib/python3.10/dist-packages/mhsboat/__init__.py
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/ament_index/resource_index/package_run_dependencies/mhsboat
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/ament_index/resource_index/parent_prefix_path/mhsboat
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/environment/path.sh
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/environment/path.dsv
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/local_setup.bash
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/local_setup.sh
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/local_setup.zsh
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/local_setup.dsv
+-- Symlinking: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/package.dsv
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/ament_index/resource_index/packages/mhsboat
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/cmake/mhsboatConfig.cmake
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/cmake/mhsboatConfig-version.cmake
+-- Up-to-date symlink: /home/bchan400/ros2_ws/install/mhsboat/share/mhsboat/package.xml
+Listing '/home/bchan400/ros2_ws/install/mhsboat/local/lib/python3.10/dist-packages/mhsboat'...

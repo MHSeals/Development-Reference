@@ -1,0 +1,4 @@
+source;share/mhsboat/local_setup.bash
+source;share/mhsboat/local_setup.dsv
+source;share/mhsboat/local_setup.sh
+source;share/mhsboat/local_setup.zsh
