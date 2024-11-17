@@ -8,7 +8,7 @@ Panels:
         - /Status1
         - /TF1
       Splitter Ratio: 0.5
-    Tree Height: 766
+    Tree Height: 979
 Visualization Manager:
   Class: ""
   Displays:
@@ -63,11 +63,6 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        imu_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         left_float:
           Alpha: 1
           Show Axes: false
@@ -89,11 +84,6 @@ Visualization Manager:
           Show Trail: false
           Value: true
         right_float:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        right_propeller:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -117,21 +107,15 @@ Visualization Manager:
           Value: true
         front_cross_beam:
           Value: true
-        imu_link:
-          Value: true
         left_float:
           Value: true
         left_propeller:
           Value: true
         lidar_link:
           Value: true
-        odom:
-          Value: true
         rear_cross_beam:
           Value: true
         right_float:
-          Value: true
-        right_propeller:
           Value: true
       Marker Scale: 0.30000001192092896
       Name: TF
@@ -144,8 +128,6 @@ Visualization Manager:
             {}
           front_cross_beam:
             {}
-          imu_link:
-            {}
           left_float:
             {}
           left_propeller:
@@ -156,10 +138,6 @@ Visualization Manager:
             {}
           right_float:
             {}
-          right_propeller:
-            {}
-        odom:
-          {}
       Update Interval: 0
       Value: true
   Enabled: true
@@ -183,7 +161,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 4.23778772354126
+      Distance: 1.597370982170105
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -198,18 +176,18 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.6453983783721924
+      Pitch: 0.08039845526218414
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 3.1303980350494385
+      Yaw: 2.1403965950012207
     Saved: ~
 Window Geometry:
   Displays:
     collapsed: false
-  Height: 995
+  Height: 1208
   Hide Left Dock: false
   Hide Right Dock: false
-  QMainWindow State: 000000ff00000000fd00000001000000000000015600000389fc0200000001fb000000100044006900730070006c006100790073010000003d00000389000000c900ffffff000006240000038900000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
-  Width: 1920
-  X: 0
-  Y: 0
+  QMainWindow State: 000000ff00000000fd0000000100000000000001560000045efc0200000001fb000000100044006900730070006c006100790073010000003d0000045e000000c900ffffff000004ce0000045e00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Width: 1578
+  X: 765
+  Y: 659
